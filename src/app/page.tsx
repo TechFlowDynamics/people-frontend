@@ -15,7 +15,6 @@ export default function Home() {
               <Hero />
               <FeatureGrid />
               <SetupProgress />
-              <TrustedBy />
             </main>
           </div>
         </div>

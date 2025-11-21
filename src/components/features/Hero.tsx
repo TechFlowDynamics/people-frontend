@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function Hero() {
     return (
@@ -9,9 +10,11 @@ export function Hero() {
                         <h1 className="text-gray-900 dark:text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">Welcome to OrgFlow!</h1>
                         <h2 className="text-gray-700 dark:text-gray-300 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">The all-in-one platform to manage your people, streamline HR, and build a great company culture.</h2>
                     </div>
-                    <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-primary/90 transition-colors">
-                        <span className="truncate">Let's Get Started</span>
-                    </button>
+                    <Link href="/admin-setup">
+                        <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                            <span className="truncate">Let's Get Started</span>
+                        </button>
+                    </Link>
                 </div>
                 <div className="w-full aspect-video rounded-lg overflow-hidden relative @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full">
                     <Image

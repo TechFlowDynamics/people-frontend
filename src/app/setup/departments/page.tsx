@@ -140,6 +140,11 @@ export default function DepartmentsSetupPage() {
                                     </tbody>
                                 </table>
                             </div>
+                            <div className="p-4 border-t border-gray-200 dark:border-gray-800 flex justify-end">
+                                <Link href="/setup/invite">
+                                    <Button>Save and Continue</Button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
