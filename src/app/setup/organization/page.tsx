@@ -95,7 +95,7 @@ export default function OrganizationSetupPage() {
                     </div>
                     <div className="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-4 mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                         <Button variant="ghost">Skip</Button>
-                        <Link href="/setup/departments">
+                        <Link href="/departments">
                             <Button>Save and Continue</Button>
                         </Link>
                     </div>

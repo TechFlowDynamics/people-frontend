@@ -2,7 +2,6 @@ import { Header } from "@/components/features/Header";
 import { Hero } from "@/components/features/Hero";
 import { FeatureGrid } from "@/components/features/FeatureGrid";
 import { SetupProgress } from "@/components/features/SetupProgress";
-import { TrustedBy } from "@/components/features/TrustedBy";
 
 export default function Home() {
   return (

@@ -18,11 +18,6 @@ export default function SetupLayout({
             icon: "corporate_fare",
         },
         {
-            name: "Departments",
-            path: "/setup/departments",
-            icon: "domain", // Using domain as placeholder if needed, or just empty circle
-        },
-        {
             name: "Invite Users",
             path: "/setup/invite",
             icon: "group_add",
