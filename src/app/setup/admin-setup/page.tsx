@@ -6,30 +6,7 @@ export default function AdminSetupPage() {
     return (
         <div className="relative flex h-auto min-h-screen w-full flex-col items-center justify-center p-4 sm:p-6 lg:p-8">
             <div className="w-full max-w-lg">
-                <header className="mb-8 flex flex-col items-center">
-                    <div className="flex items-center gap-3">
-                        <span className="material-symbols-outlined text-primary text-4xl">
-                            hexagon
-                        </span>
-                        <span className="text-2xl font-bold text-gray-900 dark:text-white">
-                            PeoplePlatform
-                        </span>
-                    </div>
-                </header>
                 <main className="w-full">
-                    <div className="flex flex-col gap-3 p-4">
-                        <div className="flex gap-6 justify-between">
-                            <p className="text-sm font-medium leading-normal text-gray-600 dark:text-gray-400">
-                                Step 1 of 4: Administrator Setup
-                            </p>
-                        </div>
-                        <div className="rounded-full bg-gray-200 dark:bg-gray-700 h-2">
-                            <div
-                                className="h-2 rounded-full bg-primary"
-                                style={{ width: "25%" }}
-                            ></div>
-                        </div>
-                    </div>
                     <div className="mt-6 text-center">
                         <h1 className="text-gray-900 dark:text-white tracking-tight text-[32px] font-bold leading-tight">
                             Welcome! Let's Create Your Administrator Profile.

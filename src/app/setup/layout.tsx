@@ -13,6 +13,11 @@ export default function SetupLayout({
 
     const steps = [
         {
+            name: "Administrator Setup",
+            path: "/setup/admin-setup",
+            icon: "admin_panel_settings",
+        },
+        {
             name: "Organization",
             path: "/setup/organization",
             icon: "corporate_fare",
