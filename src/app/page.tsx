@@ -13,7 +13,7 @@ export default function Home() {
             <main className="flex-grow">
               <Hero />
               <FeatureGrid />
-              <SetupProgress />
+              {/* <SetupProgress /> */}
             </main>
           </div>
         </div>
